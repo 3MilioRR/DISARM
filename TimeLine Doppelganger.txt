@@ -1,0 +1,218 @@
+A continuación tienes un análisis estructurado de la campaña **Doppelganger** usando el marco **DISARM (Red Framework)**, incluyendo:
+
+1. lista de técnicas con **códigos DISARM**,
+2. un **esquema cronológico (timeline causal)** de la campaña.
+
+***
+
+# 🧠 1. Resumen de la campaña Doppelganger
+
+Doppelganger es una operación de desinformación atribuida a actores rusos activa desde **mayo de 2022** cuyo núcleo consiste en **clonar medios legítimos (webs y marcas)** para difundir narrativas pro-Kremlin y manipular audiencias occidentales. [\[disinfo.eu\]](https://www.disinfo.eu/doppelganger), [\[en.wikipedia.org\]](https://en.wikipedia.org/wiki/Doppelganger_%28disinformation_campaign%29)
+
+Componentes clave:
+
+* **Producción**: creación de webs clonadas y contenido falso. [\[euvsdisinfo.eu\]](https://euvsdisinfo.eu/uploads/2024/06/EEAS-TechnicalReport-DoppelgangerEE24_June2024.pdf)
+* **Amplificación**: uso de bots, cuentas falsas y anuncios para difundirlo. [\[euvsdisinfo.eu\]](https://euvsdisinfo.eu/uploads/2024/06/EEAS-TechnicalReport-DoppelgangerEE24_June2024.pdf), [\[cybercom.mil\]](https://www.cybercom.mil/Media/News/Article/3895345/russian-disinformation-campaign-doppelgnger-unmasked-a-web-of-deception/)
+* **Objetivo**: erosionar apoyo a Ucrania y polarizar sociedades occidentales. [\[en.wikipedia.org\]](https://en.wikipedia.org/wiki/Doppelganger_%28disinformation_campaign%29)
+
+***
+
+# 🧩 2. Técnicas DISARM identificadas
+
+A continuación se listan técnicas relevantes del framework DISARM observadas en Doppelganger:
+
+## 🔹 Fase: Preparación / Infraestructura
+
+* **T0013 – Create Inauthentic Websites**  
+  → Clonación de medios (Le Monde, Fox News, etc.). [\[en.wikipedia.org\]](https://en.wikipedia.org/wiki/Doppelganger_%28disinformation_campaign%29)
+
+* **T0011 – Compromise Legitimate Accounts (parcial / variante)**  
+  → Uso de branding robado o imitación de identidad mediática.
+
+* **T0010 – Cultivate Ignorant Agents**  
+  → Audiencias engañadas que comparten contenido creyéndolo legítimo.
+
+* **T0072.001 – Geographic Segmentation**  
+  → Mensajes adaptados por país (Francia, Alemania, EE. UU.). [\[euvsdisinfo.eu\]](https://euvsdisinfo.eu/uploads/2024/06/EEAS-TechnicalReport-DoppelgangerEE24_June2024.pdf)
+
+***
+
+## 🔹 Fase: Desarrollo de narrativa
+
+* **T0002 – Facilitate State Propaganda**  
+  → Narrativas pro-Kremlin (anti-Ucrania, anti-sanciones). [\[cybercom.mil\]](https://www.cybercom.mil/Media/News/Article/3895345/russian-disinformation-campaign-doppelgnger-unmasked-a-web-of-deception/)
+
+* **T0004 – Develop Competing Narratives**  
+  → Versiones alternativas de hechos (ej. negación de Bucha). [\[disinfo.eu\]](https://www.disinfo.eu/doppelganger)
+
+* **T0022 – Leverage Conspiracy Theory Narratives**  
+  → Ucrania como estado nazi o corrupto. [\[cybercom.mil\]](https://www.cybercom.mil/Media/News/Article/3895345/russian-disinformation-campaign-doppelgnger-unmasked-a-web-of-deception/)
+
+* **T0042 – Seed Kernel of Truth**  
+  → Mezcla de hechos reales con falsedades para credibilidad.
+
+***
+
+## 🔹 Fase: Generación de contenido
+
+* **T0006 – Develop Content**  
+  → Artículos, vídeos y encuestas falsas. [\[disinfo.eu\]](https://www.disinfo.eu/doppelganger)
+
+* **T0016 – Create Clickbait**  
+  → Titulares alarmistas (ej. impuestos falsos, decisiones de NATO). [\[en.wikipedia.org\]](https://en.wikipedia.org/wiki/Doppelganger_%28disinformation_campaign%29)
+
+* **T0019 / T0019.001 – Generate Information Pollution / Fake Research**  
+  → Gran volumen de contenido engañoso.
+
+***
+
+## 🔹 Fase: Distribución
+
+* **T0114 – Deliver Ads**  
+  → Uso de anuncios pagados para amplificar contenido. [\[cybercom.mil\]](https://www.cybercom.mil/Media/News/Article/3895345/russian-disinformation-campaign-doppelgnger-unmasked-a-web-of-deception/)
+
+* **T0018 – Purchase Targeted Advertisements**  
+  → Segmentación de audiencias específicas.
+
+* **T0043.001 – Use Encrypted / Social Platforms**  
+  → Uso de múltiples plataformas (X, Facebook, Telegram). [\[disa.org\]](https://disa.org/understanding-the-doppelganger-operation-a-resource-compilation/)
+
+* **T0043 – Chat Apps / Platforms Use**  
+  → Distribución transversal en redes.
+
+***
+
+## 🔹 Fase: Amplificación
+
+* **T0049 – Flooding the Information Space**  
+  → Publicación masiva y simultánea.
+
+* **T0049.001 – Trolls Amplify and Manipulate**  
+  → Uso de bots y cuentas falsas. [\[cybercom.mil\]](https://www.cybercom.mil/Media/News/Article/3895345/russian-disinformation-campaign-doppelgnger-unmasked-a-web-of-deception/)
+
+* **T0060 – Continue to Amplify**  
+  → Reposteo constante y reutilización de contenido.
+
+* **T0039 – Bait Legitimate Influencers**  
+  → Intento de que medios reales recojan contenido falso.
+
+***
+
+## 🔹 Fase: Engaño y legitimidad
+
+* **T0013 + T0128 – Conceal People**  
+  → Ocultación de autoría real mediante infraestructura. [\[cybercom.mil\]](https://www.cybercom.mil/Media/News/Article/3895345/russian-disinformation-campaign-doppelgnger-unmasked-a-web-of-deception/)
+
+* **T0015 – Create Hashtags and Search Artifacts**  
+  → Mejora de visibilidad en buscadores/redes.
+
+***
+
+## 🔹 Fase: Persistencia
+
+* **T0059 – Play the Long Game**  
+  → Continuidad desde 2022–2026 con adaptación. [\[dti.domaintools.com\]](https://dti.domaintools.com/research/doppelganger-rrn-disinformation-infrastructure-ecosystem)
+
+* **T011 – Persist in Information Environment**  
+  → Reaparición tras bloqueos (rotación de dominios). [\[dti.domaintools.com\]](https://dti.domaintools.com/research/doppelganger-rrn-disinformation-infrastructure-ecosystem)
+
+***
+
+# 🕒 3. Timeline (esquema causal de la campaña)
+
+A continuación se muestra un **flujo simplificado causa‑efecto**:
+
+```
+[FASE 1 – PLANIFICACIÓN]
+  ↓
+Definición de objetivos geopolíticos
+(T0002 Facilitate State Propaganda)
+  ↓
+Análisis de audiencias
+(T0072 Segmentation)
+  ↓
+
+[FASE 2 – INFRAESTRUCTURA]
+  ↓
+Compra de dominios similares (typosquatting)
+(T0013 Create Inauthentic Websites)
+  ↓
+Clonado de medios legítimos
+(T0013)
+  ↓
+Creación de red de bots/cuentas falsas
+(T0007 Create Inauthentic Social Media Pages)
+  ↓
+
+[FASE 3 – PRODUCCIÓN DE CONTENIDO]
+  ↓
+Diseño de narrativas (anti-Ucrania, polarización)
+(T0004 Develop Competing Narratives)
+  ↓
+Creación de artículos, vídeos, fake polls
+(T0006 Develop Content)
+  ↓
+Clickbait + mezcla verdad/mentira
+(T0016 + T0042)
+  ↓
+
+[FASE 4 – DISTRIBUCIÓN]
+  ↓
+Publicación en webs clonadas
+(T0006)
+  ↓
+Difusión vía redes sociales
+(T0043 Platforms)
+  ↓
+Campañas de anuncios pagados
+(T0114 Deliver Ads)
+  ↓
+
+[FASE 5 – AMPLIFICACIÓN]
+  ↓
+Bots comparten masivamente enlaces
+(T0049.001 Troll Amplification)
+  ↓
+Inundación del espacio informativo
+(T0049 Flooding)
+  ↓
+Intento de viralización orgánica
+(T0039 Bait Influencers)
+  ↓
+
+[FASE 6 – EFECTO]
+  ↓
+Usuarios creen que es contenido legítimo
+(T0010 Cultivate Ignorant Agents)
+  ↓
+Difusión secundaria por usuarios reales
+  ↓
+Polarización y erosión de confianza
+  ↓
+
+[FASE 7 – PERSISTENCIA]
+  ↓
+Bloqueo de dominios / cuentas
+  ↓
+Rotación de infraestructura
+(T011 Persist / T0059 Play Long Game)
+  ↓
+Reinicio del ciclo
+```
+
+***
+
+# ✅ 4. Conclusión analítica
+
+Doppelganger destaca por:
+
+* Uso intensivo de **suplantación de identidad mediática (T0013)**
+* **Arquitectura profesionalizada** (dominios + ads + bots)
+* Integración completa de fases DISARM (de narrativa → infraestructura → amplificación)
+* Ciclo repetitivo con resiliencia (persistencia)
+
+Es un ejemplo “de manual” de operación FIMI moderna donde la clave no es solo el contenido, sino la **cadena completa de entrega y legitimación**.
+
+***
+
+Si quieres, puedo mapear esta campaña a **MITRE ATT\&CK (ciber)** o hacer un **diagrama visual** más formal tipo gráfico.
