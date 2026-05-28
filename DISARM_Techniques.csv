@@ -1,0 +1,392 @@
+﻿disarm_id;name;tactic_id
+T0002;Facilitate State Propaganda;TA02
+T0003;Leverage Existing Narratives;TA14
+T0004;Develop Competing Narratives;TA14
+T0010;Cultivate Ignorant Agents;TA15
+T0014;Prepare Fundraising Campaigns;TA15
+T0014.001;Raise Funds from Malign Actors;TA15
+T0014.002;Raise Funds from Ignorant Agents;TA15
+T0015;Create Hashtags and Search Artefacts;TA06
+T0015.001;Use Existing Hashtag;TA06
+T0015.002;Create New Hashtag;TA06
+T0016;Create Clickbait;TA05
+T0017;Conduct Fundraising;TA10
+T0017.001;Conduct Crowdfunding Campaigns;TA10
+T0018;Purchase Targeted Advertisements;TA05
+T0020;Trial Content;TA08
+T0022;Leverage Conspiracy Theory Narratives;TA14
+T0022.001;Amplify Existing Conspiracy Theory Narratives;TA14
+T0022.002;Develop Original Conspiracy Theory Narratives;TA14
+T0023;Distort Facts;TA06
+T0023.001;Reframe Context;TA06
+T0023.002;Edit Open-Source Content;TA06
+T0029;Online Polls;TA07
+T0039;Bait Influencer;TA17
+T0040;Demand Insurmountable Proof;TA14
+T0042;Seed Kernel of Truth;TA08
+T0044;Seed Distortions;TA08
+T0045;Use Fake Experts;TA08
+T0046;Use Search Engine Optimisation;TA08
+T0047;Censor Social Media as a Political Force;TA18
+T0048;Harass;TA18
+T0048.001;"Boycott/""Cancel"" Opponents";TA18
+T0048.002;Harass People Based on Identities;TA18
+T0048.003;Threaten to Dox;TA18
+T0048.004;Dox;TA18
+T0049;Flood Information Space;TA17
+T0049.001;Trolls Amplify and Manipulate;TA17
+T0049.002;Flood Existing Hashtag;TA17
+T0049.003;Bots Amplify via Automated Forwarding and Reposting;TA17
+T0049.004;Utilise Spamoflauge;TA17
+T0049.005;Conduct Swarming;TA17
+T0049.006;Conduct Keyword Squatting;TA17
+T0049.007;Inauthentic Sites Amplify News and Narratives;TA17
+T0049.008;Generate Information Pollution;TA17
+T0057;Organise Events;TA10
+T0057.001;Pay for Physical Action;TA10
+T0057.002;Conduct Symbolic Action;TA10
+T0059;Play the Long Game;TA11
+T0060;Continue to Amplify;TA11
+T0061;Sell Merchandise;TA10
+T0065;Prepare Physical Broadcast Capabilities;TA15
+T0066;Degrade Adversary;TA02
+T0068;Respond to Breaking News Event or Active Crisis;TA14
+T0072;Segment Audiences;TA13
+T0072.001;Geographic Segmentation;TA13
+T0072.002;Demographic Segmentation;TA13
+T0072.003;Economic Segmentation;TA13
+T0072.004;Psychographic Segmentation;TA13
+T0072.005;Political Segmentation;TA13
+T0073;Determine Target Audiences;TA01
+T0074;Determine Strategic Ends;TA01
+T0074.001;Geopolitical Advantage;TA01
+T0074.002;Domestic Political Advantage;TA01
+T0074.003;Economic Advantage;TA01
+T0074.004;Ideological Advantage;TA01
+T0075;Dismiss;TA02
+T0075.001;Discredit Credible Sources;TA02
+T0076;Distort;TA02
+T0077;Distract;TA02
+T0078;Dismay;TA02
+T0079;Divide;TA02
+T0080;Map Target Audience Information Environment;TA13
+T0080.001;Monitor Social Media Analytics;TA13
+T0080.002;Evaluate Media Surveys;TA13
+T0080.003;Identify Trending Topics/Hashtags;TA13
+T0080.004;Conduct Web Traffic Analysis;TA13
+T0080.005;Assess Degree/Type of Media Access;TA13
+T0081;Identify Social and Technical Vulnerabilities;TA13
+T0081.001;Find Echo Chambers;TA13
+T0081.002;Identify Data Voids;TA13
+T0081.003;Identify Existing Prejudices;TA13
+T0081.004;Identify Existing Fissures;TA13
+T0081.005;Identify Existing Conspiracy Narratives/Suspicions;TA13
+T0081.006;Identify Wedge Issues;TA13
+T0081.007;Identify Target Audience Adversaries;TA13
+T0081.008;Identify Media System Vulnerabilities;TA13
+T0082;Develop New Narratives;TA14
+T0083;Integrate Target Audience Vulnerabilities into Narrative;TA14
+T0084;Reuse Existing Content;TA06
+T0084.001;Use Copypasta;TA06
+T0084.002;Plagiarise Content;TA06
+T0084.003;Deceptively Labelled or Translated;TA06
+T0084.004;Appropriate Content;TA06
+T0085;Develop Text-Based Content;TA06
+T0085.001;Develop AI-Generated Text;TA06
+T0085.003;Develop Inauthentic News Articles;TA06
+T0085.004;Develop Document;TA06
+T0085.005;Develop Book;TA06
+T0085.006;Develop Opinion Article;TA06
+T0085.007;Create Fake Research;TA06
+T0085.008;Machine Translated Text;TA06
+T0086;Develop Image-Based Content;TA06
+T0086.001;Develop Memes;TA06
+T0086.002;Develop AI-Generated Images (Deepfakes);TA06
+T0086.003;Deceptively Edit Images (Cheap Fakes);TA06
+T0086.004;Aggregate Information into Evidence Collages;TA06
+T0087;Develop Video-Based Content;TA06
+T0087.001;Develop AI-Generated Videos (Deepfakes);TA06
+T0087.002;Deceptively Edit Video (Cheap Fakes);TA06
+T0088;Develop Audio-Based Content;TA06
+T0088.001;Develop AI-Generated Audio (Deepfakes);TA06
+T0088.002;Deceptively Edit Audio (Cheap Fakes);TA06
+T0089;Obtain Private Documents;TA06
+T0089.001;Obtain Authentic Documents;TA06
+T0089.003;Alter Authentic Documents;TA06
+T0091;Recruit Malign Actors;TA15
+T0091.001;Recruit Contractors;TA15
+T0091.002;Recruit Partisans;TA15
+T0091.003;Enlist Troll Accounts;TA15
+T0092;Build Network;TA15
+T0092.001;Create Organisations;TA15
+T0092.002;Use Follow Trains;TA15
+T0092.003;Create Community or Sub-Group;TA15
+T0093;Acquire/Recruit Network;TA15
+T0093.001;Fund Proxies;TA15
+T0093.002;Acquire Botnets;TA15
+T0094;Infiltrate Existing Networks;TA15
+T0094.001;Identify Susceptible Targets in Networks;TA15
+T0094.002;Utilise Butterfly Attacks;TA15
+T0095;Develop Owned Media Assets;TA15
+T0096;Leverage Content Farms;TA15
+T0096.001;Create Content Farms;TA15
+T0096.002;Outsource Content Creation to External Organisations;TA15
+T0097;Present Persona;TA16
+T0097.100;Individual Persona;TA16
+T0097.101;Local Persona;TA16
+T0097.102;Journalist Persona;TA16
+T0097.103;Activist Persona;TA16
+T0097.104;Hacktivist Persona;TA16
+T0097.105;Military Personnel Persona;TA16
+T0097.106;Recruiter Persona;TA16
+T0097.107;Researcher Persona;TA16
+T0097.108;Expert Persona;TA16
+T0097.109;Romantic Suitor Persona;TA16
+T0097.110;Party Official Persona;TA16
+T0097.111;Government Official Persona;TA16
+T0097.112;Government Employee Persona;TA16
+T0097.200;Institutional Persona;TA16
+T0097.201;Local Institution Persona;TA16
+T0097.202;News Outlet Persona;TA16
+T0097.203;Fact Checking Organisation Persona;TA16
+T0097.204;Think Tank Persona;TA16
+T0097.205;Business Persona;TA16
+T0097.206;Government Institution Persona;TA16
+T0097.207;NGO Persona;TA16
+T0097.208;Social Cause Persona;TA16
+T0098;Establish Inauthentic News Sites;TA16
+T0098.001;Create Inauthentic News Sites;TA16
+T0098.002;Leverage Existing Inauthentic News Sites;TA16
+T0100;Co-Opt Trusted Sources;TA16
+T0100.001;Co-Opt Trusted Individuals;TA16
+T0100.002;Co-Opt Grassroots Groups;TA16
+T0100.003;Co-Opt Influencers;TA16
+T0101;Create Localised Content;TA05
+T0102;Leverage Echo Chambers/Filter Bubbles;TA05
+T0102.001;Use Existing Echo Chambers/Filter Bubbles;TA05
+T0102.002;Create Echo Chambers/Filter Bubbles;TA05
+T0102.003;Exploit Data Voids;TA05
+T0107;Bookmarking and Content Curation;TA07
+T0109;Consumer Review Networks;TA07
+T0110;Formal Diplomatic Channels;TA07
+T0111;Traditional Media;TA07
+T0111.001;TV;TA07
+T0111.002;Newspaper;TA07
+T0111.003;Radio;TA07
+T0113;Employ Commercial Analytic Firms;TA15
+T0114;Deliver Ads;TA09
+T0114.001;Social Media;TA09
+T0114.002;Traditional Media;TA09
+T0115;Post Content;TA09
+T0115.001;Share Memes;TA09
+T0115.002;Post Violative Content to Provoke Takedown and Backlash;TA09
+T0115.003;One-Way Direct Posting;TA09
+T0116;Comment or Reply on Content;TA09
+T0116.001;Post Inauthentic Social Media Comment;TA09
+T0117;Attract Traditional Media;TA09
+T0118;Amplify Existing Narrative;TA17
+T0119;Cross-Posting;TA17
+T0119.001;Post across Groups;TA17
+T0119.002;Post across Platform;TA17
+T0119.003;Post across Disciplines;TA17
+T0120;Incentivize Sharing;TA17
+T0120.001;Use Affiliate Marketing Programmes;TA17
+T0120.002;Use Contests and Prizes;TA17
+T0121;Manipulate Platform Algorithm;TA17
+T0121.001;Bypass Content Blocking;TA17
+T0122;Direct Users to Alternative Platforms;TA17
+T0123;Control Information Environment through Offensive Cyberspace Operations;TA18
+T0123.001;Delete Opposing Content;TA18
+T0123.002;Block Content;TA18
+T0123.003;Destroy Information Generation Capabilities;TA18
+T0123.004;Conduct Server Redirect;TA18
+T0124;Suppress Opposition;TA18
+T0124.001;Report Non-Violative Opposing Content;TA18
+T0124.002;Goad People into Harmful Action (Stop Hitting Yourself);TA18
+T0124.003;Exploit Platform TOS/Content Moderation;TA18
+T0125;Platform Filtering;TA18
+T0126;Encourage Attendance at Events;TA10
+T0126.001;Call to Action to Attend;TA10
+T0126.002;Facilitate Logistics or Support for Attendance;TA10
+T0127;Physical Violence;TA10
+T0127.001;Conduct Physical Violence;TA10
+T0127.002;Encourage Physical Violence;TA10
+T0128;Conceal Information Assets;TA11
+T0128.001;Use Pseudonyms;TA11
+T0128.002;Conceal Network Identity;TA11
+T0128.003;Distance Reputable Individuals from Operation;TA11
+T0128.004;Launder Information Assets;TA11
+T0128.005;Change Names of Information Assets;TA11
+T0129;Conceal Operational Activity;TA11
+T0129.001;Conceal Network Identity;TA11
+T0129.002;Generate Content Unrelated to Narrative;TA11
+T0129.003;Break Association with Content;TA11
+T0129.004;Delete URLs;TA11
+T0129.005;Coordinate on Encrypted/Closed Networks;TA11
+T0129.006;Deny Involvement;TA11
+T0129.007;Delete Accounts/Account Activity;TA11
+T0129.009;Remove Post Origins;TA11
+T0129.010;Misattribute Activity;TA11
+T0130;Conceal Infrastructure;TA11
+T0130.001;Conceal Sponsorship;TA11
+T0130.002;Utilise Bulletproof Hosting;TA11
+T0130.003;Use Shell Organisations;TA11
+T0130.004;Use Cryptocurrency;TA11
+T0130.005;Obfuscate Payment;TA11
+T0131;Exploit TOS/Content Moderation;TA11
+T0131.001;Legacy Web Content;TA11
+T0131.002;Post Borderline Content;TA11
+T0132;Measure Performance;TA12
+T0132.001;People Focused;TA12
+T0132.002;Content Focused;TA12
+T0132.003;View Focused;TA12
+T0133;Measure Effectiveness;TA12
+T0133.001;Behaviour Changes;TA12
+T0133.002;Content;TA12
+T0133.003;Awareness;TA12
+T0133.004;Knowledge;TA12
+T0133.005;Action/Attitude;TA12
+T0134;Measure Effectiveness Indicators (or KPIs);TA12
+T0134.001;Message Reach;TA12
+T0134.002;Social Media Engagement;TA12
+T0135;Undermine;TA02
+T0135.001;Smear;TA02
+T0135.002;Thwart;TA02
+T0135.003;Subvert;TA02
+T0135.004;Polarise;TA02
+T0136;Cultivate Support;TA02
+T0136.001;Defend Reputaton;TA02
+T0136.002;Justify Action;TA02
+T0136.003;Energise Supporters;TA02
+T0136.004;Boost Reputation;TA02
+T0136.005;Cultvate Support for Initiative;TA02
+T0136.006;Cultivate Support for Ally;TA02
+T0136.007;Recruit Members;TA02
+T0136.008;Increase Prestige;TA02
+T0137;Make Money;TA02
+T0137.001;Generate Ad Revenue;TA02
+T0137.002;Scam;TA02
+T0137.003;Raise Funds;TA02
+T0137.004;Sell Items under False Pretences;TA02
+T0137.005;Extort;TA02
+T0137.006;Manipulate Stocks;TA02
+T0138;Motivate to Act;TA02
+T0138.001;Encourage;TA02
+T0138.002;Provoke;TA02
+T0138.003;Compel;TA02
+T0139;Dissuade from Acting;TA02
+T0139.001;Discourage;TA02
+T0139.002;Silence;TA02
+T0139.003;Deter;TA02
+T0140;Cause Harm;TA02
+T0140.001;Defame;TA02
+T0140.002;Intimidate;TA02
+T0140.003;Spread Hate;TA02
+T0143;Persona Legitimacy;TA16
+T0143.001;Authentic Persona;TA16
+T0143.002;Fabricated Persona;TA16
+T0143.003;Impersonated Persona;TA16
+T0143.004;Parody Persona;TA16
+T0144;Persona Legitimacy Evidence;TA16
+T0144.001;Present Persona across Platforms;TA16
+T0144.002;Persona Template;TA16
+T0145;Establish Account Imagery;TA15
+T0145.001;Copy Account Imagery;TA15
+T0145.002;AI-Generated Account Imagery;TA15
+T0145.003;Animal Account Imagery;TA15
+T0145.004;Scenery Account Imagery;TA15
+T0145.005;Illustrated Character Account Imagery;TA15
+T0145.006;Attractive Person Account Imagery;TA15
+T0145.007;Stock Image Account Imagery;TA15
+T0146;Account Asset;TA15
+T0146.001;Free Account Asset;TA15
+T0146.002;Paid Account Asset;TA15
+T0146.003;Verified Account Asset;TA15
+T0146.004;Administrator Account Asset;TA15
+T0146.005;Lookalike Account ID;TA15
+T0146.006;Open Access Platform;TA15
+T0146.007;Automated Account Asset;TA15
+T0147;Software Asset;TA15
+T0147.001;Game Asset;TA15
+T0147.002;Game Mod Asset;TA15
+T0147.003;Malware Asset;TA15
+T0147.004;Mobile App Asset;TA15
+T0148;Financial Instrument;TA15
+T0148.001;Online Banking Platform;TA15
+T0148.002;Bank Account Asset;TA15
+T0148.003;Payment Processing Platform;TA15
+T0148.004;Payment Processing Capability;TA15
+T0148.005;Subscription Processing Capability;TA15
+T0148.006;Crowdfunding Platform;TA15
+T0148.007;eCommerce Platform;TA15
+T0148.008;Cryptocurrency Exchange Platform;TA15
+T0148.009;Cryptocurrency Wallet;TA15
+T0149;Online Infrastructure;TA15
+T0149.001;Domain Asset;TA15
+T0149.002;Email Domain Asset;TA15
+T0149.003;Lookalike Domain;TA15
+T0149.004;Redirecting Domain Asset;TA15
+T0149.005;Server Asset;TA15
+T0149.006;IP Address Asset;TA15
+T0149.007;VPN Asset;TA15
+T0149.008;Proxy IP Address Asset;TA15
+T0149.009;Internet Connected Physical Asset;TA15
+T0150;Asset Origin;TA15
+T0150.001;Newly Created Asset;TA15
+T0150.002;Dormant Asset;TA15
+T0150.003;Pre-Existing Asset;TA15
+T0150.004;Repurposed Asset;TA15
+T0150.005;Compromised Asset;TA15
+T0150.006;Purchased Asset;TA15
+T0150.007;Rented Asset;TA15
+T0150.008;Bulk Created Asset;TA15
+T0151;Digital Community Hosting Asset;TA07
+T0151.001;Social Media Platform;TA07
+T0151.002;Online Community Group;TA07
+T0151.003;Online Community Page;TA07
+T0151.004;Chat Platform;TA07
+T0151.005;Chat Community Server;TA07
+T0151.006;Chat Room;TA07
+T0151.007;Chat Broadcast Group;TA07
+T0151.008;Microblogging Platform;TA07
+T0151.009;Legacy Online Forum Platform;TA07
+T0151.010;Community Forum Platform;TA07
+T0151.011;Community Sub-Forum;TA07
+T0151.012;Image Board Platform;TA07
+T0151.013;Question and Answer Platform;TA07
+T0151.014;Comments Section;TA07
+T0151.015;Online Game Platform;TA07
+T0151.016;Online Game Session;TA07
+T0151.017;Dating Platform;TA07
+T0152;Digital Content Hosting Asset;TA07
+T0152.001;Blogging Platform;TA07
+T0152.002;Blog Asset;TA07
+T0152.003;Website Hosting Platform;TA07
+T0152.004;Website Asset;TA07
+T0152.005;Paste Platform;TA07
+T0152.006;Video Platform;TA07
+T0152.007;Audio Platform;TA07
+T0152.008;Live Streaming Platform;TA07
+T0152.009;Software Delivery Platform;TA07
+T0152.010;File Hosting Platform;TA07
+T0152.011;Wiki Platform;TA07
+T0152.012;Subscription Service Platform;TA07
+T0153;Digital Content Delivery Asset;TA07
+T0153.001;Email Platform;TA07
+T0153.002;Link Shortening Platform;TA07
+T0153.003;Shortened Link Asset;TA07
+T0153.004;QR Code Asset;TA07
+T0153.005;Online Advertising Platform;TA07
+T0153.006;Content Recommendation Algorithm;TA07
+T0153.007;Direct Messaging;TA07
+T0154;Digital Content Creation Asset;TA07
+T0154.001;AI LLM Platform;TA07
+T0154.002;AI Media Platform;TA07
+T0155;Gated Asset;TA07
+T0155.001;Password Gated Asset;TA07
+T0155.002;Invite Gated Asset;TA07
+T0155.003;Approval Gated Asset;TA07
+T0155.004;Geoblocked Asset;TA07
+T0155.005;Paid Access Asset;TA07
+T0155.006;Subscription Access Asset;TA07
+T0155.007;Encrypted Communication Channel;TA07
