@@ -152,15 +152,15 @@ def main():
     tactics_csv = "DISARM_Tactics.csv"
 
     if not os.path.exists(afb_file):
-        print("❌ No existe el fichero AFB")
+        print("No existe el fichero AFB")
         return
 
     if not os.path.exists(csv_file):
-        print("❌ No existe DISARM_Techniques.csv")
+        print("No existe DISARM_Techniques.csv")
         return
 
     if not os.path.exists(tactics_csv):
-        print("❌ No existe DISARM_Tactics.csv")
+        print("No existe DISARM_Tactics.csv")
         return
 
     # Cargar datos
@@ -186,7 +186,7 @@ def main():
     # Guardar
     guardar(validas, json_data)
 
-    print("\n✅ Generados:")
+    print("\n Generados:")
     print("- techniques_found.txt")
     print("- disarm_layer.json")
 
