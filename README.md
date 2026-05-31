@@ -19,10 +19,10 @@ Ficheros de la aplicación:
 
 Tambien se incluyen los siguientes ficheros de ejemplo para hacer una prueba de concepto    
 
-5. Doppelanger_Manual.json (Layer de DISARM la operacion Doppelanger generado a mano en el Navigator. Sirve como contraste o referencia del funcionamiento del programa)
-6. Doppelganger.afb (Fichero generado con ATT&amp;CK Flow Builder, basado en la campaña Doppelganger)
-7. disarm_layer.json (layer o capa generada por la app, lista para su crga en DISARM Navigator)
-8. techniques_found.txt (por el mismo precio, la app saca el listado de las técnicas encontradas, por si ressulta útil tenerlas en txt)
+5. Doppelganger.afb (Fichero generado con ATT&amp;CK Flow Builder, basado en la campaña Doppelganger y que queremos convertir en layer de Navigator)
+6. disarm_layer.json (layer o capa generada por la app, lista para su carga en DISARM Navigator)
+7. techniques_found.txt (por el mismo precio, la app saca el listado de las técnicas encontradas, por si ressulta útil tenerlas en txt)
+8. Doppelanger_Manual.json (Layer de DISARM generado a mano en el Navigator que sirve como contraste o referencia del correcto funcionamiento de la app)
 
 
 
