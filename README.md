@@ -5,9 +5,9 @@ el proceso es el siguiente
 ficher.afb + app > disarm_layer.json + techniques_found.txt 
 
 Para lanzar la aplicación:
-...
+```
 python Convert_afb_to_DISARM.py Nombre-del-Fichero.afb
-...
+```
 
 ### Contenido del repo
 
