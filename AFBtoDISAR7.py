@@ -20,17 +20,26 @@ def cargar_tacticas(csv_file):
     with open(csv_file, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f, delimiter=';')
 
-        # Limpiar cabeceras automáticamente
-        fieldnames = [f.replace("\\", "").strip() for f in reader.fieldnames]
-        reader.fieldnames = fieldnames
+        # DEBUG REAL
+        print("CABECERAS RAW:", [repr(f) for f in reader.fieldnames])
 
-        print(f"[DEBUG] Cabeceras corregidas: {reader.fieldnames}")
+        # NORMALIZAR CABECERAS
+        reader.fieldnames = [
+            f.replace("\\", "").replace("_", "_").strip()
+            for f in reader.fieldnames
+        ]
+
+        print("CABECERAS NORMALIZADAS:", reader.fieldnames)
 
         for row in reader:
 
-            # limpiar claves también
-            row = {k.replace("\\", "").strip(): v for k, v in row.items()}
+            # NORMALIZAR FILA
+            row = {
+                k.replace("\\", "").strip(): v
+                for k, v in row.items()
+            }
 
+            # AHORA ESTO FUNCIONA SIEMPRE
             tid = row["tactic_id"].strip()
             name = row["tactic_name"].strip()
 
