@@ -7,7 +7,7 @@
 Colección de ficheros de ejemplo para convertir flujos de AFB (ATT&amp;CK Flow Builder) en JSON de DISARM  
 
 el proceso es el siguiente   
-ficher.afb + app > disarm_layer.json + techniques_found.txt 
+fichero.afb + python-app = disarm_layer.json + techniques_found.txt 
 
 Para lanzar la aplicación:
 ```
